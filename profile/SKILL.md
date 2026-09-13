@@ -6,118 +6,59 @@ description: >-
   Use whenever inspecting personal profile, verifying PST standards, calculating exam eligibility, or invoking /profile.
 ---
 
-# 👤 Personal Profile & Dossier Skill
+# 👤 Personal Profile & Baseline Dossier Engine
 
-Use this skill to inspect, verify, update, or audit Karan Singh Verma's permanent personal profile, biographical metrics, academic credentials, and strategic milestones in `~/.gemini/Profile.md`.
+Use this skill to inspect, verify, update, or audit the user's permanent personal profile, biographical baseline, academic credentials, and physical milestones in `~/.gemini/Profile.md`.
 
 ---
 
 ## 🎮 Invocation Modes
 
-| Mode / Command | Trigger & Purpose | Protocol |
+| Command / Trigger | Purpose | Execution Protocol |
 | :--- | :--- | :--- |
-| **Inspect / Query** | `/profile`, `/profile bio`, `/profile academic`, etc. | Direct, read-only factual extraction. Zero edits proposed. |
-| **Age / Cutoff Check** | `/profile age`, `/profile age <cutoff_date>` | Executes `scripts/calculate_age.py` for exact Years/Months/Days and exam eligibility. |
-| **Mutate / Update** | `/profile update ...`, `/profile add ...` | Triggers the **6-Stage Dossier Lifecycle Pipeline**. |
-| **Audit & Verify** | `/profile audit` | Scans for date/age consistency, stale milestones, and formatting integrity. |
-| **Rollback** | `/profile rollback` | Restores `~/.gemini/Profile.md` from `~/.gemini/Profile.md.bak`. |
+| `/profile` | Inspect baseline dossier | Direct read-only extraction of requested section. Zero unsolicited mutations. |
+| `/profile age [cutoff_date]` | Calculate age & cutoff eligibility | Runs `scripts/calculate_age.py` for exact Years/Months/Days against standard brackets. |
+| `/profile update <text>` | Mutate / Update profile | Executes the **6-Stage Dossier Lifecycle Pipeline** with backup safety. |
+| `/profile audit` | Validate data integrity | Scans for chronological consistency, placeholder sections, and formatting integrity. |
+| `/profile rollback` | Restore previous version | Restores `~/.gemini/Profile.md` from `~/.gemini/Profile.md.bak`. |
 
 ---
 
-## 🏛️ Dossier Management Lifecycle
+## 🏛️ 6-Stage Dossier Lifecycle Pipeline
 
-Every modification to `~/.gemini/Profile.md` must strictly follow this 6-stage operational pipeline:
+Every modification to `~/.gemini/Profile.md` must strictly follow this procedure:
 
-```mermaid
-flowchart LR
-    A["1. Triage & Validate"] --> B["2. Translate Raw Intent"]
-    B --> C["3. Section Taxonomy"]
-    C --> D["4. Pre-Mutation Diff"]
-    D --> E["5. User Alignment"]
-    E --> F["6. Backup & Execute"]
+```
+┌──────────────────┐     ┌──────────────────┐     ┌──────────────────┐
+│ 1. Triage Intent │ ──► │ 2. Section Route │ ──► │ 3. Pre-Diff View │
+└──────────────────┘     └──────────────────┘     └──────────────────┘
+                                                           │
+                                                           ▼
+┌──────────────────┐     ┌──────────────────┐     ┌──────────────────┐
+│ 6. Verify Backup │ ◄── │ 5. Execute Write │ ◄── │ 4. User Approval │
+└──────────────────┘     └──────────────────┘     └──────────────────┘
 ```
 
----
-
-## 📋 Operational Directives
-
-### 1. 🔍 Boundary Filtration & Separation of Concerns
-- **Filtration**:
-  - `~/.gemini/Profile.md` is strictly for **Human Identity, Biometrics, Credentials, and Milestones**.
-  - System directives, AI execution rules, database schemas $\rightarrow$ `~/.gemini/GEMINI.md` (via `/gemini`).
-  - Rolling tactical tasks & strikes $\rightarrow$ SQLite (via `/campaign strike`).
-  - Ephemeral chat context or scratch notes $\rightarrow$ discarded or stored in session memory.
-
-### 2. 🎯 Intent Translation & Factual Rigor
-- **Translate Raw Input**: Cleanly format shorthand notes into structured, tabular or bulleted records.
-  - *Example*: `/profile add run 1.6km 7m10s` $\rightarrow$ parses into Section 3 (Physical Metrics PST Matrix).
-  - *Example*: `/profile add 10th 84% CBSE 2021` $\rightarrow$ parses into Section 2 (Educational Ledger).
-- **Data Integrity**: Never invent, extrapolate, or guess dates, physical measurements, or credential scores. If a parameter is incomplete, record verified values or ask for clarification.
-- **Tone**: Strictly factual, objective, 3rd-person profile documentation. Zero conversational filler.
-
-### 3. 🛡️ Deduplication & Conflict Prevention
-- **Field-Level Deduplication**: Update existing keys (e.g. weight, current semester) in-place instead of creating duplicate conflicting lines.
-- **Historical Tracking**: For metrics that evolve over time (e.g. fitness milestones or semester progression), update the active stat or log an append in a structured timeline format.
-
-### 4. 🗂️ Standard Taxonomy & Category Layout
-All entries in `~/.gemini/Profile.md` must adhere to these 5 distinct sections:
-
-1. `🏛️ 1. Core Demographics & Identity`: Full Name, DOB, Age/Calculated baseline, Location, Identity context.
-2. `🎓 2. Academic & Certification Baseline`: Qualifications ledger (10th, 12th, Diploma), semester progress, technical certificates.
-3. `🏃 3. Physical & Biometric Metrics (PST Standards)`: Height, weight, endurance run times (1.6 km, 5 km), push-ups/pull-ups benchmark matrix.
-4. `🛠️ 4. Technical Skill Inventory`: Linux, Python automation, Neovim, terminal environments, tooling.
-5. `🎯 5. Strategic Timelines & Runway Constraints`: Hostel runway (June 2027), diploma completion (June 2026), recruitment windows.
-
-### 5. 🪝 Pre-Mutation Audit Summary (Verification Hook)
-Before modifying `~/.gemini/Profile.md`, present a clear 4-part breakdown:
-- **Target Field / Section**: The exact section being updated.
-- **Previous Value**: What was previously recorded (or `None` if new).
-- **Proposed Delta**: The new or modified record.
-- **Preview**: Formatted markdown snippet.
-
-### 6. 💾 Backup, Auto-Initialization & Strict Formatting Execution
-- **Rollback Safety**: Before writing or modifying an existing `~/.gemini/Profile.md`, always create/update `~/.gemini/Profile.md.bak`.
-- **Formatting Standards**:
-  - Strictly UTF-8 encoded.
-  - Standard GitHub Flavored Markdown with clean tables and bullet hierarchies.
-  - Standard ISO / DD-MM-YYYY date conventions.
+1. **Triage & Separation**: Ensure information belongs in `Profile.md` (permanent identity/credentials) and NOT dynamic living reality (`Intel.md`), tactical operations (`campaigns.sqlite`), or AI directives (`GEMINI.md`).
+2. **Section Routing**: Map input to the standard taxonomy:
+   - `Section 1`: Core Demographics & Identity (Name, DOB, permanent contact coordinates).
+   - `Section 2`: Academic & Certification Baseline (Degrees, board marks, professional certifications).
+   - `Section 3`: Physical & Biometric Standards (PST metrics, height, endurance times, benchmarks).
+   - `Section 4`: Technical Capabilities & Tools Inventory.
+   - `Section 5`: Strategic Timelines & Milestones.
+3. **Pre-Mutation Diff**: Present field, prior value, and proposed change to the user.
+4. **User Confirmation**: Require explicit approval before writing.
+5. **Atomic Backup & Write**: Save `Profile.md.bak` prior to overwriting `Profile.md` in UTF-8.
+6. **Integrity Validation**: Ensure no duplicate contradictory fields exist in the ledger.
 
 ---
 
-## ⏱️ Dynamic Age & Cutoff Engine (`scripts/calculate_age.py`)
+## ⏱️ Dynamic Age & Cutoff Engine
 
-When the user runs `/profile age` or `/profile age <date>`:
-Execute:
+When checking exam or recruitment age eligibility:
+
 ```powershell
 python "~/.gemini/antigravity-cli/skills/profile/scripts/calculate_age.py" "<cutoff_date>"
 ```
-This returns exact Years, Months, Days as of that date and checks against all major recruitment age brackets (SSC GD/MTS/CGL, CPO SI, CAPF, PCS/UPSC).
 
----
-
-## 🔁 Self-Improvement & Socratic `/grill-me` Alignment Loop
-
-```mermaid
-flowchart LR
-    A["Ambiguous Metric / Credential Uncertainty"] --> B["Proactive Socratic Grill-Me Interview"]
-    B --> C["Karan's Exact Metric Confirmation"]
-    C --> D["Pre-Execution 3-Point Alignment"]
-    D --> E["Update Profile.md & Refresh Dossier"]
-```
-
-1. **Active Socratic Interviewing (`/grill-me`)**:
-   - When a biographical metric, score, or date is incomplete or ambiguous, the AI immediately asks sharp, structured clarification questions instead of estimating or extrapolating.
-2. **Continuous Dossier Evolution**:
-   - Accurately captures new physical standards, academic milestones, and timeline constraints across conversation sessions.
-
----
-
-## 🧹 Profile Audit Routine (`/profile audit`)
-
-When `/profile audit` is triggered:
-1. **Consistency Check**: Verify that dates are logically sequenced (e.g., DOB vs completion milestones).
-2. **Completeness Check**: Flag placeholder sections ready for user population.
-3. **Format Integrity**: Verify markdown headers, table alignments, and backup presence.
-
-
-
+*Computes exact chronological age as of `<cutoff_date>` (DD-MM-YYYY) and checks compliance against statutory brackets.*
