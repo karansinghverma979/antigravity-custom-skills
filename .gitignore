@@ -1,0 +1,22 @@
+# Python & Bytecode
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+.venv/
+ENV/
+
+# Secrets & Private Token configs
+*.secret
+*.token
+*.env
+*.env.local
+
+# OS & Temp Files
+.DS_Store
+Thumbs.db
+*.tmp
+*.log

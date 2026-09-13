@@ -1,0 +1,42 @@
+{
+  "safety-guard": {
+    "enabled": true,
+    "PreToolUse": [
+      {
+        "matcher": "run_command|campaigns_execute_sql",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "python ~/.gemini/antigravity-cli/skills/hook-master/scripts/safety_guard.py",
+            "timeout": 15
+          }
+        ]
+      }
+    ]
+  },
+  "auto-formatter": {
+    "enabled": true,
+    "PostToolUse": [
+      {
+        "matcher": "write_to_file|replace_file_content",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "python ~/.gemini/antigravity-cli/skills/hook-master/scripts/auto_format.py",
+            "timeout": 15
+          }
+        ]
+      }
+    ]
+  },
+  "cache-optimizer": {
+    "enabled": true,
+    "PostInvocation": [
+      {
+        "type": "command",
+        "command": "python ~/.gemini/antigravity-cli/skills/hook-master/scripts/cache_optimizer.py",
+        "timeout": 15
+      }
+    ]
+  }
+}
