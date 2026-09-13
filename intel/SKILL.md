@@ -1,7 +1,9 @@
-﻿---
+---
 name: intel
-description: Dynamic Situational Intelligence and Current Reality Governor for Karan Singh Verma (~/.gemini/Intel.md). Maintains real-time living truth of active courses, vocational training, living setup, daily tools, and state transitions with zero pollution of permanent profile data.
-trigger: /intel
+description: >-
+  Dynamic Situational Intelligence and Current Reality Governor for tracking active vocational courses,
+  living arrangements, daily commuting setups, tools, job transitions, and lifestyle routines in ~/.gemini/Intel.md.
+  Use whenever the user shares current reality updates, changes courses, switches setups, or runs /intel.
 ---
 
 # 📡 Situational Intelligence & Current Reality Skill

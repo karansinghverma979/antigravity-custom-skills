@@ -1,7 +1,8 @@
 ---
 name: gemini
 description: >-
-  Manage, maintain, audit, and update Karan's permanent memory and executive directives in ~/.gemini/GEMINI.md through a strict lifecycle pipeline.
+  Memory isolation governor managing core AI behavioral directives, operating protocols, and execution guardrails in ~/.gemini/GEMINI.md.
+  Use whenever updating system directives, reviewing executive protocols, auditing behavioral memory, or invoking /gemini.
 ---
 
 # 🌌 Gemini Permanent Memory & Directives Skill

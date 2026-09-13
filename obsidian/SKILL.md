@@ -1,7 +1,9 @@
 ---
 name: obsidian
-description: Executive custodian of Karan's Obsidian Second Brain vault (%USERPROFILE%\Obsidian). Governs Pancha-Tattva domain routing, frontmatter property integrity, tag taxonomy, and sentinel isolation.
-trigger: /obsidian
+description: >-
+  Executive custodian of the Obsidian Second Brain vault (%USERPROFILE%\Obsidian). Governs Pancha-Tattva domain routing
+  (Shava, Jigyasu, Adhipati, Bhakta, Antaryami), frontmatter property integrity, root staging workflows, and tag taxonomy.
+  Use whenever organizing notes, auditing tags, standardizing frontmatter, or searching vault knowledge.
 ---
 
 # 🧠 Obsidian Second Brain Vault Skill

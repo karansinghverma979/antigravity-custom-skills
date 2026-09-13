@@ -1,7 +1,9 @@
 ---
 name: profile
-description: Manage, maintain, audit, and verify the personal dossier and background metrics in ~/.gemini/Profile.md through a strict lifecycle pipeline.
-trigger: /profile
+description: >-
+  Permanent immutable personal baseline engine and biographical dossier governor for ~/.gemini/Profile.md.
+  Maintains verified physical metrics, PST standards, academic credentials, and cutoff age calculations.
+  Use whenever inspecting personal profile, verifying PST standards, calculating exam eligibility, or invoking /profile.
 ---
 
 # 👤 Personal Profile & Dossier Skill
