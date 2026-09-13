@@ -156,6 +156,17 @@
 
 ---
 
+## 🌐 Official Companion MCP Servers
+
+This skills suite seamlessly pairs with dedicated open-source Model Context Protocol servers:
+
+| Repository | Description | Key Services |
+| :--- | :--- | :--- |
+| **[`antigravity-campaigns-mcp`](https://github.com/karansinghverma979/antigravity-campaigns-mcp)** | Tactical SQLite State-Machine & 4-Minister Lifecycle Engine | 14 Tools (Tasks, Strikes, Subtasks, Tags, Health Audits, Custom SQL) |
+| **[`antigravity-google-workspace`](https://github.com/karansinghverma979/antigravity-google-workspace)** | Unified Google Cloud & Workspace Protocol Server | 22 Tools (Gmail, Calendar, Drive, Docs, Sheets, Tasks, Contacts) |
+
+---
+
 ## 🚀 Quickstart: Installation & Loading
 
 ```bash

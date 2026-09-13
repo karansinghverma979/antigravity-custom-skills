@@ -8,7 +8,7 @@ trigger: /gsuite
 
 Use this skill whenever Karan invokes `/gsuite`, `/gworkspace`, `/gtask`, `/gcontact`, `/gdoc`, or manages any aspect of his Google Workspace cloud ecosystem.
 
-> **Single Source of Truth**: This skill is the authoritative operating governor, intent de-noiser, and execution bridge for Karan's Google Workspace suite, interfaced directly via the **`google-workspace` MCP server** (`~/.gemini/google-workspace/server.py`).
+> **Single Source of Truth**: This skill is the authoritative operating governor, intent de-noiser, and execution bridge for Karan's Google Workspace suite, interfaced directly via the open-source [`antigravity-google-workspace`](https://github.com/karansinghverma979/antigravity-google-workspace) MCP server (`~/.gemini/google-workspace/server.py`).
 
 ---
 

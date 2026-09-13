@@ -8,7 +8,7 @@ trigger: /campaign
 
 Use this skill whenever Karan invokes `/campaign` or manages tactical battles, daily strikes, long-term roadmaps, resource allocations, or strategic Obsidian battle intelligence.
 
-> **Single Source of Truth**: This skill is the authoritative command center, cognitive bridge, schema governor, and strategic partner for the **Campaigns SQLite Database** (`%APPDATA%\Campaigns\Database\campaigns.sqlite`).
+> **Single Source of Truth**: This skill is the authoritative command center, cognitive bridge, schema governor, and strategic partner for the **Campaigns SQLite Database** (`%APPDATA%\Campaigns\Database\campaigns.sqlite`), powered by the open-source [`antigravity-campaigns-mcp`](https://github.com/karansinghverma979/antigravity-campaigns-mcp) server.
 
 ---
 
