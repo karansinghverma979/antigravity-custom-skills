@@ -1,44 +1,79 @@
 <div align="center">
 
-# 🧠 Antigravity Custom Skills Suite
+# 🧠 ANTIGRAVITY CUSTOM SKILLS SUITE
+### *Autonomous AI Agent Architecture · Multi-Minister Governance · Production Engineering Skills*
 
-### *The Complete Autonomous Agent, Multi-Minister Governance & Engineering Skillpack for Google Antigravity*
+<br/>
 
-[![Antigravity](https://img.shields.io/badge/Google-Antigravity_CLI-4285F4?style=for-the-badge&logo=google&logoColor=white)](https://cloud.google.com)
-[![Skills Count](https://img.shields.io/badge/Skills-24_Active-8A2BE2?style=for-the-badge)](skills)
-[![License](https://img.shields.io/badge/License-MIT-green?style=for-the-badge)](LICENSE)
-[![Path Invariant](https://img.shields.io/badge/Standard-Universal_Relative_Paths-blue?style=for-the-badge)](gemini)
-[![Security](https://img.shields.io/badge/Security-5--Pass_Pre--Launch-brightgreen?style=for-the-badge)](skills/vibe-security)
+<a href="https://github.com/karansinghverma979/antigravity-custom-skills">
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=24&duration=3000&pause=1000&color=4285F4&center=true&vCenter=true&multiline=true&width=750&height=100&lines=Autonomous+Pair-Programming+%26+Security+Gates;Multi-Minister+Executive+Strategy+(4+Domains);Dynamic+Situational+Reality+%26+Second-Brain+Sync;Zero+Secret+Exposure+%26+Universal+Relative+Paths" alt="Typing SVG" />
+</a>
+
+<br/>
+
+<!-- Shields Row 1: Core Platform & Ecosystem -->
+<p align="center">
+  <a href="https://cloud.google.com">
+    <img src="https://img.shields.io/badge/Google-Antigravity_CLI-4285F4?style=for-the-badge&logo=google&logoColor=white" alt="Google Antigravity" />
+  </a>
+  <a href="https://modelcontextprotocol.io">
+    <img src="https://img.shields.io/badge/MCP-Protocol_1.0-8A2BE2?style=for-the-badge&logo=anthropic&logoColor=white" alt="MCP Protocol" />
+  </a>
+  <a href="https://python.org">
+    <img src="https://img.shields.io/badge/Python-3.10%2B-3776AB?style=for-the-badge&logo=python&logoColor=white" alt="Python 3.10+" />
+  </a>
+  <a href="LICENSE">
+    <img src="https://img.shields.io/badge/License-MIT-00C853?style=for-the-badge" alt="MIT License" />
+  </a>
+</p>
+
+<!-- Shields Row 2: Capabilities & Quality Standards -->
+<p align="center">
+  <img src="https://img.shields.io/badge/Active_Skills-24_Modules-FF6D00?style=for-the-badge&logo=stackshare&logoColor=white" alt="24 Active Skills" />
+  <img src="https://img.shields.io/badge/Security-5--Pass_Pre--Launch-00E676?style=for-the-badge&logo=shield&logoColor=white" alt="5-Pass Pre-Launch Security" />
+  <img src="https://img.shields.io/badge/Architecture-Separation_of_Concerns-00B0FF?style=for-the-badge&logo=blueprint&logoColor=white" alt="Separation of Concerns" />
+  <img src="https://img.shields.io/badge/Portability-Universal_Relative_Paths-D500F9?style=for-the-badge&logo=powershell&logoColor=white" alt="Universal Relative Paths" />
+</p>
 
 <p align="center">
-  <b>A production-grade collection of specialized skills, execution runbooks, cognitive state-machines, and automated quality gates designed for agentic pair-programming, second-brain management, and life operations.</b>
+  <b>Transform your Google Antigravity AI assistant into a sovereign Chief of Staff, master systems architect, and multi-pass code reviewer.</b>
 </p>
 
 ---
 
 </div>
 
-## 📑 Table of Contents
-- [🏛️ Ecosystem Architecture](#️-ecosystem-architecture)
-- [🗂️ Categorized Skill Catalog (24 Skills)](#️-categorized-skill-catalog-24-skills)
-  - [🛡️ 1. Autonomous Engineering & Quality Gates](#️-1-autonomous-engineering--quality-gates)
-  - [⚡ 2. Agent Tooling & Infrastructure](#-2-agent-tooling--infrastructure)
-  - [🏛️ 3. Executive Strategy & Memory Governance](#️-3-executive-strategy--memory-governance)
-  - [📱 4. Multi-Device & Cloud Bridge](#-4-multi-device--cloud-bridge)
-- [🚀 Quickstart & Installation](#-quickstart--installation)
-- [📐 Standards & Architectural Invariants](#-standards--architectural-invariants)
-- [📄 License](#-license)
+<br/>
+
+## 🧭 Master Quick Navigation
+
+```
+┌────────────────────────────────────────────────────────────────────────────────────────┐
+│                               SKILL SUITE DIRECTORY                                    │
+├───────────────────────────────┬────────────────────────────────────────────────────────┤
+│ 🛡️ 1. Autonomous Engineering  │ vibe-security · code-sentinel · feature-architect      │
+│    & Multi-Pass Quality Gates │ ast-graph-builder · incident-commander · webapp-tester │
+├───────────────────────────────┼────────────────────────────────────────────────────────┤
+│ ⚡ 2. Agent Infrastructure    │ mcp-foundry · hook-master · skill-forge · swarm        │
+│    & Operational Tooling      │ agent-evolution · auto-loop · pdf-toolkit · office     │
+├───────────────────────────────┼────────────────────────────────────────────────────────┤
+│ 🏛️ 3. Executive Strategy &     │ campaigns (4 Ministers) · intel (Dynamic Reality)      │
+│    Cognitive Governance       │ profile (Baseline) · reflection (Pancha-Tattva) · spike│
+├───────────────────────────────┼────────────────────────────────────────────────────────┤
+│ 📱 4. Multi-Device & Cloud    │ blaze (Windows 11 ⇄ Android Termux) · gsuite (MCP Hub) │
+└───────────────────────────────┴────────────────────────────────────────────────────────┘
+```
 
 ---
 
-## 🏛️ Ecosystem Architecture
+## 🏛️ System Architecture: Strict Separation of Concerns
 
 ```
 ┌────────────────────────────────────────────────────────────────────────┐
 │                   ANTIGRAVITY AGENT RUNTIME ENGINE                     │
 │                        (CLI / IDE / Daemon)                            │
 └───────────────────────────────────┬────────────────────────────────────┘
-                                    │ Dynamic Skill Loader
+                                    │ Dynamic Skill Loader (SKILL.md)
                                     ▼
 ┌────────────────────────────────────────────────────────────────────────┐
 │                   ANTIGRAVITY CUSTOM SKILLS SUITE                      │
@@ -51,89 +86,100 @@
                                     │
                                     ▼
 ┌────────────────────────────────────────────────────────────────────────┐
-│                   SEPARATION OF CONCERNS PROTOCOL                      │
-│      [ Skills = Universal Logic ] ⇄ [ Files/DB = Local State ]         │
-└────────────────────────────────────────────────────────────────────────┘
+│                  UNIVERSAL PORTABLE STATE CONTRACT                     │
+├───────────────────────────────────┬────────────────────────────────────┤
+│ 🧠 PROTOCOL & ENGINE (Skills)     │ 📦 RAW DATA & STATE (Files/DB)     │
+│ • Universal instructions & schemas│ • Stored in user home (~/.gemini/) │
+│ • 100% portable relative paths    │ • Zero data pollution in repo      │
+└───────────────────────────────────┴────────────────────────────────────┘
 ```
 
 ---
 
 ## 🗂️ Categorized Skill Catalog (24 Skills)
 
-### 🛡️ 1. Autonomous Engineering & Quality Gates
+<details open>
+<summary><h3>🛡️ 1. Autonomous Engineering & Quality Gates</h3></summary>
 
-| Skill Name | Trigger / Alias | Description |
+| Skill | Alias | Description & Open-Source Engine |
 | :--- | :--- | :--- |
-| **`vibe-security`** | `/vibe-security` | 5-Pass pre-launch defense (Gitleaks, Bearer PII, ECC Audit, Trail of Bits, Attacker View). |
-| **`code-sentinel`** | `/code-sentinel` | Multi-pass code reviewer, silent failure hunter, and anti-overengineering simplifier. |
-| **`feature-architect`** | `/architect` | End-to-end system design, data flow modeling, and modular RFC specifications. |
-| **`ast-graph-builder`** | `/ast-graph` | Abstract syntax tree analysis, dependency topology mapping, and call graph generator. |
-| **`incident-commander`**| `/incident` | High-velocity triage, root-cause isolation (RCA), rollback coordination, and hotfix gates. |
-| **`webapp-tester`** | `/webapp-test` | Automated browser regression, end-to-end user journeys, and UI assertion suite. |
-| **`ui-design-lead`** | `/ui-design` | Design-system compliance, responsive layout architect, and typography/token governor. |
+| **[`vibe-security`](vibe-security/SKILL.md)** | `/vibe-security` | **5-Pass Pre-Launch Defense**: Gitleaks secret leak prevention, Bearer PII flow audit, ECC production audit, Trail of Bits logic audit, and Attacker mindset review. |
+| **[`code-sentinel`](code-sentinel/SKILL.md)** | `/code-sentinel` | **Multi-Pass Code Reviewer**: Catches silent exception suppressions, eliminates over-engineering, and simplifies cyclomatic complexity before merge. |
+| **[`feature-architect`](feature-architect/SKILL.md)** | `/architect` | **System & RFC Architect**: High-density feature blueprints, data flow models, and phase-by-phase execution roadmaps. |
+| **[`ast-graph-builder`](ast-graph-builder/SKILL.md)** | `/ast-graph` | **AST Indexer & Dependency Mapper**: Extracts call hierarchies, class inheritances, and architectural graph dependencies. |
+| **[`incident-commander`](incident-commander/SKILL.md)** | `/incident` | **Mission-Critical Triage**: SEV-1/SEV-2 incident mitigation, root cause analysis (RCA), and rollback decision engine. |
+| **[`webapp-tester`](webapp-tester/SKILL.md)** | `/webapp-test` | **Automated Browser Regression**: End-to-end user journeys, visual assertions, and headless Playwright workflows. |
+| **[`ui-design-lead`](ui-design-lead/SKILL.md)** | `/ui-design` | **Modern UI/UX Governor**: Token-based design systems, responsive typography, and anti-cliché layout guidelines. |
+
+</details>
+
+<details open>
+<summary><h3>⚡ 2. Agent Infrastructure & Operational Tooling</h3></summary>
+
+| Skill | Alias | Description & Capabilities |
+| :--- | :--- | :--- |
+| **[`mcp-foundry`](mcp-foundry/SKILL.md)** | `/mcp-foundry` | Scaffolds FastMCP Python & TypeScript Model Context Protocol servers with schema validation. |
+| **[`hook-master`](hook-master/SKILL.md)** | `/hooks` | Manages lifecycle hooks (`PreToolUse`, `PostToolUse`, `PostInvocation`) with safety filters. |
+| **[`skill-forge`](skill-forge/SKILL.md)** | `/skill-forge` | Meta-skill compiler: designs, tests, and auto-formats new custom Antigravity skills. |
+| **[`swarm-orchestrator`](swarm-orchestrator/SKILL.md)**| `/swarm` | Orchestrates parallel autonomous subagents with dynamic task delegation and state convergence. |
+| **[`agent-evolution`](agent-evolution/SKILL.md)** | `/agent-evolve` | Self-improving memory engine: harvests execution trajectories and updates heuristic guidelines. |
+| **[`autonomous-loop`](autonomous-loop/SKILL.md)** | `/auto-loop` | Unattended goal execution engine with progress telemetry and loop convergence guards. |
+| **[`pdf-toolkit`](pdf-toolkit/SKILL.md)** | `/pdf` | PDF extraction, OCR conversion, structured table parsing, and automated document synthesis. |
+| **[`office-forge`](office-forge/SKILL.md)** | `/office` | Headless generator for Word documents (`.docx`), Excel models (`.xlsx`), and PowerPoint presentations. |
+
+</details>
+
+<details open>
+<summary><h3>🏛️ 3. Executive Strategy & Memory Governance</h3></summary>
+
+| Skill | Alias | Description & Domain Scope |
+| :--- | :--- | :--- |
+| **[`campaigns`](campaigns/SKILL.md)** | `/campaigns` | **Tactical Operations OS**: Multi-minister lifecycle (`Adhipati`, `Bhakta`, `Antaryami`, `Jigyasu`), daily strikes, subtask trees, and runway tracking. |
+| **[`intel`](intel/SKILL.md)** | `/intel` | **Dynamic Reality Governor** (`~/.gemini/Intel.md`): Tracks living truth, active courses, daily tools, and constraints. |
+| **[`profile`](profile/SKILL.md)** | `/profile` | **Immutable Baseline Engine** (`~/.gemini/Profile.md`): Permanent physical/academic metrics with dynamic cutoff age calculator. |
+| **[`reflection`](reflection/SKILL.md)** | `/reflection` | **Depth Psychology & Philosophical Counselor** (`Obsidian/Antaryami/`): Pancha-Tattva Samanvaya decrees. |
+| **[`obsidian`](obsidian/SKILL.md)** | `/obsidian` | **Second Brain Custodian**: Enforces strict root staging, frontmatter schemas, and tag taxonomy. |
+| **[`spike`](spike/SKILL.md)** | `/spike` | **Master Thinker & Sparring Sandbox**: High-bandwidth conversational space with zero premature actions. |
+| **[`gemini`](gemini/SKILL.md)** | `/gemini` | **Memory Isolation Governor**: Enforces behavioral directives in `~/.gemini/GEMINI.md`. |
+
+</details>
+
+<details open>
+<summary><h3>📱 4. Multi-Device & Cloud Bridge</h3></summary>
+
+| Skill | Alias | Description & Transport |
+| :--- | :--- | :--- |
+| **[`blaze`](blaze/SKILL.md)** | `/blaze` | **Bi-Directional Device Interop**: Connects Windows 11 PC ⇄ Android Termux (Lava Blaze 5G) over SSH & ADB. |
+| **[`gsuite`](gsuite/SKILL.md)** | `/gsuite` | **Google Workspace Command Center**: Native MCP access to Gmail, Calendar, Tasks, Drive, Docs, Sheets, and Contacts. |
+
+</details>
 
 ---
 
-### ⚡ 2. Agent Tooling & Infrastructure
-
-| Skill Name | Trigger / Alias | Description |
-| :--- | :--- | :--- |
-| **`mcp-foundry`** | `/mcp-foundry` | Scaffolds high-performance Model Context Protocol (MCP) servers in Python and Node.js. |
-| **`hook-master`** | `/hooks` | Lifecyle event hooks (`PreToolUse`, `PostToolUse`, `PostInvocation`) with safety checks. |
-| **`skill-forge`** | `/skill-forge` | Meta-skill generator that designs, verifies, and packages new Antigravity custom skills. |
-| **`swarm-orchestrator`**| `/swarm` | Orchestrates multi-agent subagent swarms with dynamic delegation and state consolidation. |
-| **`agent-evolution`** | `/agent-evolve` | Continuous self-improvement protocol: analyzes failure patterns and updates tool heuristics. |
-| **`autonomous-loop`** | `/auto-loop` | Unattended goal execution engine with convergence heuristics and auto-retry safeguards. |
-| **`pdf-toolkit`** | `/pdf` | PDF extraction, OCR processing, vector splitting, and structured report synthesis. |
-| **`office-forge`** | `/office` | Programmatic generation and editing of Word (`.docx`), Excel (`.xlsx`), and slides. |
-
----
-
-### 🏛️ 3. Executive Strategy & Memory Governance
-
-| Skill Name | Trigger / Alias | Description |
-| :--- | :--- | :--- |
-| **`campaigns`** | `/campaigns` | Multi-minister tactical operating system (`Adhipati`, `Bhakta`, `Antaryami`, `Jigyasu`). |
-| **`intel`** | `/intel` | Dynamic situational reality governor (`~/.gemini/Intel.md`) tracking living truth and daily tools. |
-| **`profile`** | `/profile` | Permanent immutable personal baseline engine (`~/.gemini/Profile.md`) with age cutoff calculator. |
-| **`reflection`** | `/reflection` | Pancha-Tattva depth psychology and philosophical counselor (`Obsidian/Antaryami/`). |
-| **`obsidian`** | `/obsidian` | Second Brain vault custodian enforcing strict root staging and frontmatter taxonomy. |
-| **`spike`** | `/spike` | Master thinker and sparring sandbox holding conversational space with zero premature actions. |
-| **`gemini`** | `/gemini` | Memory isolation governor managing core AI behavioral directives (`~/.gemini/GEMINI.md`). |
-
----
-
-### 📱 4. Multi-Device & Cloud Bridge
-
-| Skill Name | Trigger / Alias | Description |
-| :--- | :--- | :--- |
-| **`blaze`** | `/blaze` | Bi-directional device bridge between PC (Windows 11) and mobile (Android Termux) over SSH/ADB. |
-| **`gsuite`** | `/gsuite` | Google Workspace cloud hub (Gmail, Calendar, Drive, Docs, Sheets, Tasks, Contacts via MCP). |
-
----
-
-## 🚀 Quickstart & Installation
-
-To install this custom skills suite into your Antigravity environment:
+## 🚀 Quickstart: Installation & Loading
 
 ```bash
-# 1. Clone into your Antigravity skills directory
+# 1. Clone into your local Antigravity skills directory
 git clone https://github.com/karansinghverma979/antigravity-custom-skills.git ~/.gemini/antigravity-cli/skills
 
-# 2. Verify installed skills in Antigravity CLI
-# Restart Antigravity or open a new session to load all skills dynamically
+# 2. Verify installed skills
+# Restart Antigravity CLI or start a new prompt to load all 24 skills dynamically!
 ```
 
 ---
 
-## 📐 Standards & Architectural Invariants
+## 📐 Core Engineering Invariants
 
-1. **Strict Separation of Concerns**: Skills define **universal operational protocols**; user data resides strictly in external files (`Profile.md`, `Intel.md`, `campaigns.sqlite`, `Obsidian/`).
-2. **Universal Relative Paths**: All references use portable paths (`~/.gemini/...`, `./scripts/...`) to run out-of-the-box on Windows, Linux, and macOS without hardcoded machine prefixes.
-3. **Zero Secret Exposure**: Skills enforce strict secret isolation in `.env` and `.gitignore` with multi-pass security gates (`vibe-security`).
+1. **🌐 Universal Relative Paths**: All internal scripts and markdown links use relative (`./scripts/...`) or user-home dynamic expansion (`~/.gemini/...`), ensuring 100% out-of-the-box cross-platform portability on Windows, macOS, and Linux.
+2. **🛡️ 5-Pass Pre-Launch Gate**: Zero hardcoded secrets, PII sanitization in logs, security headers (`Helmet`/`CSP`), server-side business logic, and offensive threat testing.
+3. **🏛️ Separation of Concerns**: Skills are pure executable protocols; user data lives strictly in isolated single-source-of-truth files (`Profile.md`, `Intel.md`, `campaigns.sqlite`, `Obsidian/`).
 
 ---
 
-## 📄 License
+<div align="center">
 
-This project is open-source and licensed under the [MIT License](LICENSE).
+### ⭐ Star this repository if you find it valuable for your Agentic AI workflows!
+
+<b>Maintained by <a href="https://github.com/karansinghverma979">Karan Singh Verma</a> · Open-Source MIT License</b>
+
+</div>
