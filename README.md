@@ -30,7 +30,7 @@
 
 <!-- Shields Row 2: Capabilities & Quality Standards -->
 <p align="center">
-  <img src="https://img.shields.io/badge/Active_Skills-24_Modules-FF6D00?style=for-the-badge&logo=stackshare&logoColor=white" alt="24 Active Skills" />
+  <img src="https://img.shields.io/badge/Active_Skills-25_Modules-FF6D00?style=for-the-badge&logo=stackshare&logoColor=white" alt="25 Active Skills" />
   <img src="https://img.shields.io/badge/Security-5--Pass_Pre--Launch-00E676?style=for-the-badge&logo=shield&logoColor=white" alt="5-Pass Pre-Launch Security" />
   <img src="https://img.shields.io/badge/Architecture-Separation_of_Concerns-00B0FF?style=for-the-badge&logo=blueprint&logoColor=white" alt="Separation of Concerns" />
   <img src="https://img.shields.io/badge/Portability-Universal_Relative_Paths-D500F9?style=for-the-badge&logo=powershell&logoColor=white" alt="Universal Relative Paths" />
@@ -61,7 +61,8 @@
 │ 🏛️ 3. Executive Strategy &     │ campaigns (4 Ministers) · intel (Dynamic Reality)      │
 │    Cognitive Governance       │ profile (Baseline) · reflection (Pancha-Tattva) · spike│
 ├───────────────────────────────┼────────────────────────────────────────────────────────┤
-│ 📱 4. Multi-Device & Cloud    │ blaze (Windows 11 ⇄ Android Termux) · gsuite (MCP Hub) │
+│ 📱 4. Multi-Device & System   │ blaze (PC ⇄ Termux) · win-janitor (Motobook Governor)  │
+│    Governance                 │ gsuite (Google Workspace MCP Hub)                      │
 └───────────────────────────────┴────────────────────────────────────────────────────────┘
 ```
 
@@ -146,11 +147,12 @@
 </details>
 
 <details open>
-<summary><h3>📱 4. Multi-Device & Cloud Bridge</h3></summary>
+<summary><h3>📱 4. Multi-Device & System Governance</h3></summary>
 
 | Skill | Alias | Description & Transport |
 | :--- | :--- | :--- |
 | **[`blaze`](blaze/SKILL.md)** | `/blaze` | **Bi-Directional Device Interop**: Connects Windows 11 PC ⇄ Android Termux (Lava Blaze 5G) over SSH & ADB. |
+| **[`win-janitor`](win-janitor/SKILL.md)** | `/win-janitor` | **Windows Performance Governor**: Win32 working-set RAM trimming, bloat eradication, baseline service enforcement, and update drift reversal for Motobook. |
 | **[`gsuite`](gsuite/SKILL.md)** | `/gsuite` | **Google Workspace Command Center**: Native MCP access to Gmail, Calendar, Tasks, Drive, Docs, Sheets, and Contacts. |
 
 </details>
